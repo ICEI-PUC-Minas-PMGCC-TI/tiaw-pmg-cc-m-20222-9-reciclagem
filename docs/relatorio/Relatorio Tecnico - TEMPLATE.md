@@ -1,21 +1,18 @@
 # Informações do Projeto
-`TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+`Aplicação Web para Auxiliar a Cadeia de Reciclagem` 
 
-`CURSO` 
+Plataforma para conectar centros de coleta, recicladores, domicílios residenciais e pequenos estabelecimentos.
 
-......  COLOQUE AQUI O SEU TEXTO ......
+`Ciência da Computação`
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
 > Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+> - Bruno Henrique da Silva Brum
+> - João Marcelo Andrade Guimarães
+> - Joshua Victor
+> - Mateus Gomes Pereira Silva
 
 # Estrutura do Documento
 
@@ -56,7 +53,14 @@
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Ameaçados pelo aquecimento global, a pauta ambiental tem tomado cada vez mais espaço e relevância na nossa sociedade nas últimas décadas. Diversas ações/dispositivos estão sendo desenvolvidos a fim de revisar/aprimorar os nossos processos produtivos e relações de consumo com o objetivo de tornar a nossa relação com o meio ambiente sustentável e, por consequência, frear o aquecimento global. Dentre elas, podemos destacar a chamada 3 'R's (três R), um acrônimo para reduzir, reutilizar e reciclar. 
+
+Em suma, o 3’R’s é uma prática de consumo sustentável em que o princípio consiste em reduzir a quantidade de produtos/serviços que consumimos, reutilizarmos ou encontrar novas aplicações para eles e, ao fim, reciclarmos quando a sua vida útil chegar ao fim.
+
+Neste contexto, de acordo com a [matéria publicada pela Empresa Brasileira de Comunicação](https://agenciabrasil.ebc.com.br/geral/noticia/2022-06/indice-de-reciclagem-no-brasil-e-de-4-diz-abrelpe), a EBC, em junho de 2022, somente 4% dos resíduos sólidos recicláveis produzidos no Brasil são reciclados, índice muito abaixo dos nossos vizinhos de América Latina, como Chile e Argentina. 
+
+Além da desconscientização por parte dos consumidores/organizações, dentre o pequeno grupo de pessoas/organizações que se preocupam em reciclar, somente um universo ainda menor possui acesso a infraestrutura de reciclagem, seja através da coleta seletiva fornecida pelo Poder Público ou acesso a centros de reciclagem perto de suas residências.
+
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -76,7 +80,11 @@
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Dado tal panorama, o projeto exposto aqui busca criar uma ferramenta capaz de aproximar 3 pontas: o centro de coleta, recicladores e residências. 
+Em resumo, ela será uma plataforma web que permitirá ao reciclador realizar um rota pré-definida pelo centro de coleta, atendendo a demanda residencial por reciclagem.
+
+Com isso, o objetivo é contribuir para o aumento do volume de resíduos sólidos reciclados no Brasil, bem como oferecer um serviço conveniente de coleta de recicláveis a domicílio e aumentar o volume de recicláveis coletados pelos recicladores, aumentando assim a sua a renda.
+
 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
@@ -89,7 +97,7 @@
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A importância e motivação da plataforma aqui proposta se dá através da necessidade dos próprios autores deste documento em reciclar, mas que não têm seus bairros atendidos pela coleta seletiva oferecida pelas prefeitura de Belo Horizonte. Junto a isso, também foi exposto a dificuldade em encontrar pontos de coleta seletiva (público ou privado) em suas regiões, assim como falta de conhecimento sobre o processo de separação e identificação dos resíduos sólidos recicláveis.
 
 > Descreva a importância ou a motivação para trabalhar com esta aplicação
 > que você escolheu. Indique as razões pelas quais você escolheu seus
@@ -105,7 +113,7 @@
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A plataforma busca atender a necessidade, a princípio, de belo-horizontinos de microrregiões que possuem pelo menos um centro de reciclagem, mas que não contam com coleta seletiva pública. Neste universo, o objetivo é atender a demanda de domicílios residenciais e/ou pequenos estabelecimentos que desejam reciclar. Para atender esta demanda, a plataforma conta com a parceria de centros de reciclagem e recicladores, oferecendo-nos uma vantagem competitiva e financeira. Caracterizamos como recicladores como qualquer pessoa que realiza coleta de materiais recicláveis de porta-em-porta com o objetivo de vendê-lo ao centro reciclagem. O centro de reciclagem o definimos como um estabelecimento comercial ou cooperativa que realiza a compra, tratamento e venda de materiais reciclagem para terceiros.
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
@@ -124,7 +132,7 @@
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Por se tratar de um software, o desenvolvimento da plataforma aqui proposta se apoiará em metodologias e boas práticas relacionadas ao universo da Engenharia de Software. Entre elas, destacamos o Design Thinking para a idealização da plataforma, o Scrum para o processo de desenvolvimento e o User Flow para o desenho do fluxo e design dos elementos da plataforma.
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
