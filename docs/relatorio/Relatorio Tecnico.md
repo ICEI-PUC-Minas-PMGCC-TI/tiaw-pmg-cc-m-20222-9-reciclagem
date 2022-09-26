@@ -62,22 +62,6 @@ Neste contexto, de acordo com a [matéria publicada pela Empresa Brasileira de C
 Além da desconscientização por parte dos consumidores/organizações, dentre o pequeno grupo de pessoas/organizações que se preocupam em reciclar, somente um universo ainda menor possui acesso a infraestrutura de reciclagem, seja através da coleta seletiva fornecida pelo Poder Público ou acesso a centros de reciclagem perto de suas residências.
 
 
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
 Dado tal panorama, o projeto exposto aqui busca criar uma ferramenta capaz de aproximar 3 pontas: o centro de coleta, recicladores e residências. 
@@ -86,105 +70,37 @@ Em resumo, ela será uma plataforma web que permitirá ao reciclador realizar um
 Com isso, o objetivo é contribuir para o aumento do volume de resíduos sólidos reciclados no Brasil, bem como oferecer um serviço conveniente de coleta de recicláveis a domicílio e aumentar o volume de recicláveis coletados pelos recicladores, aumentando assim a sua a renda.
 
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 ## Justificativa
 
 A importância e motivação da plataforma aqui proposta se dá através da necessidade dos próprios autores deste documento em reciclar, mas que não têm seus bairros atendidos pela coleta seletiva oferecida pelas prefeitura de Belo Horizonte. Junto a isso, também foi exposto a dificuldade em encontrar pontos de coleta seletiva (público ou privado) em suas regiões, assim como falta de conhecimento sobre o processo de separação e identificação dos resíduos sólidos recicláveis.
-
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
 A plataforma busca atender a necessidade, a princípio, de belo-horizontinos de microrregiões que possuem pelo menos um centro de reciclagem, mas que não contam com coleta seletiva pública. Neste universo, o objetivo é atender a demanda de domicílios residenciais e/ou pequenos estabelecimentos que desejam reciclar. Para atender esta demanda, a plataforma conta com a parceria de centros de reciclagem e recicladores, oferecendo-nos uma vantagem competitiva e financeira. Caracterizamos como recicladores como qualquer pessoa que realiza coleta de materiais recicláveis de porta-em-porta com o objetivo de vendê-lo ao centro reciclagem. O centro de reciclagem o definimos como um estabelecimento comercial ou cooperativa que realiza a compra, tratamento e venda de materiais reciclagem para terceiros.
 
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
- 
 # Especificações do Projeto
 
 Por se tratar de um software, o desenvolvimento da plataforma aqui proposta se apoiará em metodologias e boas práticas relacionadas ao universo da Engenharia de Software. Entre elas, destacamos o Design Thinking para a idealização da plataforma, o Scrum para o processo de desenvolvimento e o User Flow para o desenho do fluxo e design dos elementos da plataforma.
 
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
-
 ## Personas e Mapas de Empatia
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
-> você deve ser enumerar e descrever precisamente e de forma
-> personalizada todos os principais envolvidos com a solução almeja. 
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
-> 
-> 
-> **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](imaages/../images/persona.png)
-> 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
+![Célia Regina](images/persona1.png)
+![Maria Fernanda](images/persona2.png)
+![Dara Thifany](images/persona3.png)
+![Romulo Apache](images/persona4.png)
 
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO... `PERSONA`    | QUERO/PRECISO ... `FUNCIONALIDADE`          |PARA ... `MOTIVO/VALOR`                                  |
+|------------------------|---------------------------------------------|---------------------------------------------------------|
+|Amante da natureza      | Reciclar o máximo que puder                 | Preservar o planeta                                     |
+|Humanitária             | Facilitar a vida de catadores               | Para que eles recebam e possam viver com dignidade      |
+|Amante de paisagens     | Que os lixos encontrem seus devidos lugares | Melhorar a paisagem da cidade                           |
+|Trabalhador sustentável | Diminuir a produção de mais materiais       | Para reduzir a exploração de florestas e outros lugares |
 
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
 ## Requisitos
 
@@ -192,71 +108,43 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|ID    | Descrição do Requisito                                                | Prioridade |
+|------|-----------------------------------------------------------------------|------------|
+|RF-001| Permitir que o usuário  se cadastre e escolha seus locais             | ALTA       |
+|RF-002| Verificar se as metas de cada entidade estão sendo cumpridas          | MÉDIA      |
+|RF-003| Gerar um relatório mensal do material reciclado                       | MÉDIA      |
+|RF-004| Acompanhar a atividade atual de uma entidade associada                | ALTA       |
+|RF-005| Ter informações como quais materiais são reciclados e como prepara-lo | ALTA       |
 
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
+|ID     | Descrição do Requisito                                                |Prioridade |
+|-------|-----------------------------------------------------------------------|-----------|
+|RNF-001| O sistema deve ser responsivo para rodar varios tipos de dispositivos | ALTA      |
+|RNF-002| Gerenciar os horários de todas as entidades cadastradas               | MÉDIA     |
+|RNF-003| Deve processar requisições do usuário em no máximo 5s                 | BAIXA     | 
+|RNF-004| Organizar o banco de dados da melhor forma                            | MÉDIA     | 
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
+|ID| Restrição                                                                       |
+|--|---------------------------------------------------------------------------------|
+|01| O projeto deverá ser entregue até o final do semestre                           |
+|02| Não pode trazer informações sem fundamentos para mais atrapalhar do que ajudar  |
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
-
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
+A interface tem que ser o mais fácil de entender, pois irá abrangir tanto pessoas escolarizadas como as não.
+Os botões e informações tem de ser sucintas, para não criar duplo sentido.
+Uma interface boa é aquela que, como mínimo de "aparatos", consegue informar e guiar os usuários de forma simples. Essa é a meta do projeto, facilitar a vida de todos.
+Também deve abrangir o máximo de dispositivos possível, para atender a qualquer tipo de usuário.
 
 ## User Flow
 
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
+O user flow ainda não foi contextulizado e por isso não há representação ainda.
 
 > Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
 > mapear todo fluxo de telas do site ou app. Essa técnica funciona
@@ -275,92 +163,46 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
+Foi-se concretizado apenas a página inicial do site, contendo informações que serão úteis para se locomover por ele todo.
 
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+![Exemplo de UserFlow](images/wireframe.png)
+
 
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Como essa é uma aplicação onde não há um cliente em primeiro plano, [o PO](#divisão-de-papéis) coleta dados da maior quantidade de pessoas possível, trazendo novas dores,
+melhorias e reclamações da aplicação. Com essas informações, [o PO](#divisão-de-papéis) discute com todo o grupo os caminhos a se escolher.
+[O Scrum master](#divisão-de-papéis) fica responsavel por dividir o novo trabalho e todos partem para a solução ([os Devs](#divisão-de-papéis) ficam mais responsáveis por essa parte.)
+Após um tempo de desenvolvimento e teste, é feita uma nova pesquisa para sempre melhorar a aplicação.
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A divisão de papéis baseada na personalidade dos integrantes:
 
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
+| Nome                          | Função              |Motivo |
+|-------------------------------|-------------------------|---------------|
+|Bruno Henrique da Silva Brum   | Dev      | Tem maior facilidade em lidar com o código do que com as pessoas                                                                     |
+|João Marcelo Andrade Guimarães | SM e Dev | Como criador da ideia, é o melhor papel para poder analisar como estão as coisas e dar feedbacks positivos ou negativos. Além de participar do código.|
+|Joshua Victor                  | PO e Dev | PO pelo fato de ter facilidade em lidar com o público, sendo de grande ajuda na hora de transmitir a mensagem de um lado par ao outro |
+|Mateus Gomes Pereira Silva     | Dev      | Tem maior facilidade em lidar com o código do que com as pessoas                                                                      |
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
+Como está tudo ainda no papel, não há nenhum tipo de site ou link para a hospedagem.
 
-| Ambiente  | Plataforma              |Link de Acesso |
-|-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
-
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
-> As ferramentas empregadas no projeto são:
-> 
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
-> 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
-> necessidades da nossa solução.
-> 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
+| Ambiente                   | Plataforma         |Link de Acesso                                                                        |
+|----------------------------|--------------------|--------------------------------------------------------------------------------------|
+|Processo de Design Thinking | Miro               | https://miro.com/app/board/uXjVPULmpx4=/?share_link_id=687371407420                  |
+|Repositório de código       | GitHub             | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20222-9-reciclagem.git      |
+|Protótipo Interativo        | Figma              | https://www.figma.com/file/R7p3EZZ1kIlyx6xU8xLgAT/reciclagem-wireframe?node-id=0%3A1 |
+|Comunicação por texto       | WhatsAPP           | ****                                                                                 |
+|Comunicação por voz         | Discord            | ****                                                                                 |
+|Editor de código            | Visual Studio Code | ****                                                                                 |
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Como está tudo ainda no papel, não há nenhum tipo de versão do código.
 
 > Discuta como a configuração do projeto foi feita na ferramenta de
 > versionamento escolhida. Exponha como a gerência de tags, merges,
