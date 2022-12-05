@@ -1,0 +1,95 @@
+{
+	"regiao": [
+		{
+			"Jardim Filadélfia": {
+				"locais": [
+					{
+						"0": {
+							"nome": "Central de Tratamento de Resíduos Sólidos - Portaria II",
+							"coords": {
+								"lat": "-19.919205",
+								"long": "-44.020143"
+							}
+						},
+						"1": {
+							"nome": "Casa Maria",
+							"coords": {
+								"lat": "-19.918411",
+								"long": "-44.020519"
+							}
+						},
+						"2": {
+							"nome": "Casa Gabriel",
+							"coords": {
+								"lat": "-19.916994",
+								"long": "-44.021318"
+							}
+						},
+						"3": {
+							"nome": "Casa Rosangela",
+							"coords": {
+								"lat": "-19.917130",
+								"long": "-44.023673"
+							}
+						},
+						"4": {
+							"nome": "Loja do Pedro",
+							"coords": {
+								"lat": "-19.917927",
+								"long": "-44.022842"
+							}
+						},
+						"5": {
+							"nome": "Casa João",
+							"coords": {
+								"lat": "-19.919409",
+								"long": "-44.021660"
+							}
+						}
+					}
+				]
+			},
+			"Carlos Prates": {
+				"locais": [
+					{
+						"0": {
+							"nome": "Reciclagem Lunardi",
+							"coords": {
+								"lat": "-19.912992 ",
+								"long": "-43.945175"
+							}
+						},
+						"1": {
+							"nome": "casa julia",
+							"coords": {
+								"lat": "-19.9139590050766",
+								"long": "-43.94185562747045"
+							}
+						},
+						"2": {
+							"nome": "casa humberto",
+							"coords": {
+								"lat": "-19.910844",
+								"long": "-43.946495"
+							}
+						},
+						"3": {
+							"nome": "casa julio",
+							"coords": {
+								"lat": "-19.911450",
+								"long": "-43.946598"
+							}
+						},
+						"4": {
+							"nome": "casa tom",
+							"coords": {
+								"lat": "-19.911970",
+								"long": "-43.943204"
+							}
+						}
+					}
+				]
+			}
+		}
+	]
+}

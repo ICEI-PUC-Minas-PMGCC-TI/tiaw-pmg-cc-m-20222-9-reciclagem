@@ -1,0 +1,45 @@
+<html>
+
+<head>
+	<title>Rotas</title>
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+	<!-- playground-hide -->
+	<script>
+		const process = { env: {} };
+		process.env.GOOGLE_MAPS_API_KEY =
+			"AIzaSyDroaVwxw2RoHKHDiMa2diIsLUQm6DGybw";
+	</script>
+	<!-- playground-hide-end -->
+
+	<link rel="stylesheet" type="text/css" href="./style.css" />
+	<script type="module" src="./index.js"></script>
+</head>
+
+<body>
+	<div id="container">
+		<header>
+			<nav>
+				<h1>Projeto recicla</h1>
+				<h1>Visualização de rotas</h1>
+				<ul id="atalhos">
+					<li><a href="Crud empresas/index.html">Cadastrar residência/empresa</a></li>
+					<li><a href="Crud catadores/index.html">Cadastrar catador</a></li>
+					<li><a href="Crud centrais/index.html">Cadastrar central</a></li>
+				</ul>
+			</nav>
+		</header>
+		<select name="filtro" id="filtro_regiao">
+			<option value="">Selecione a Região</option>
+			<option value="Carlos Prates">Carlos Prates</option>
+			<option value="Jardim Filadélfia">Jardim Filadélfia</option>
+		</select>
+		<input type="submit" id="submit" />
+		<div id="map"></div>
+	</div>
+
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDroaVwxw2RoHKHDiMa2diIsLUQm6DGybw&callback=initMap&v=weekly"
+		defer></script>
+</body>
+
+</html>

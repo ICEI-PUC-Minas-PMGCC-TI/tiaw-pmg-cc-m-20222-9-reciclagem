@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lista de centrais de reciclagem</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">    
+</head>
+
+<body onload="ListaContatos()">
+    <h1>Lista de centrais de reciclagem</h1>
+
+    <div class="container">
+        <div class="row">
+            <div id="msg" class="col-sm-10 offset-sm-1 ">
+                <!--<div class="alert alert-warning">Contato não encontrado.</div>-->
+            </div>
+        </div>       
+        
+        <form id="form-contato">            
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <select name="filtro_cidade" id="filtro_cidade" onchange="ListaContatos()" class="form-control">
+                        <option value="">Selecione a Cidade</option>
+                        <option value="Contagem">Contagem</option>
+                        <option value="Belo Horizonte">Belo Horizonte</option>
+                        <option value="Sete Lagoas">Sete Lagoas</option>
+                    </select>                    
+                </div>
+                <div class="col-sm-4">
+                    <select name="filtro_categoria" id="filtro_categoria" onchange="ListaContatos()"  class="form-control">
+                        <option value="">Selecione o bairro</option>
+                        <option value="São Salvador">São Salvador</option>
+                        <option value="Jardim Filadelfia">Jardim Filadelfia</option>
+                        <option value="Jardinópolis">Jardinópolis</option>
+                        <option value="Califórnia">Califórnia</option>
+                        <option value="Betânia">Betânia</option>
+                        <option value="Glalija">Glalija</option>
+                        <option value="Barro Preto">Barro Preto</option>
+                        <option value="Pompéia">Pompéia</option>
+                        <option value="Carlos Prates">Carlos Prates</option>
+                        <option value="Cidade Industrial">Cidade Industrial</option>
+                        <option value="Nossa Sra. do Carmo">Nossa Sra. do Carmo</option>
+                        <option value="Eldorado">Eldorado</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+
+
+        <div class="row">
+            <div class="col-sm-12">
+                <table id="grid-contatos" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Central de Reciclagem</th>
+                            <th scope="col">Cidade</th>
+                            <th scope="col">Bairro</th>
+                            <th scope="col">Endereço</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-contatos">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div> 
+
+    <div class="row">
+
+   </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script>
+        // função para listar na tabela os contatos que estão associados aos filtros 
+        function ListaContatos() {
+            
+            // Obtem os dados informados pelo usuário nos filtros
+            let fc = document.getElementById('filtro_cidade').value;
+            let fcg = document.getElementById('filtro_categoria').value;
+
+            // limpa a lista de contatos apresentados
+            $("#table-contatos").empty();
+
+            // Popula a tabela com os registros do banco de dados
+            for (let index = 0; index < db.data.length; index++) {
+                const contato = db.data[index];
+
+                // Verifica se os dados do contato batem com os filtros
+                if (((contato.cidade == fc) || (fc == '')) &&
+                    ((contato.categoria == fcg) || (fcg == ''))) {
+                    
+                    // Inclui o contato na tabela    
+                    $("#table-contatos").append(`<tr><td scope="row">${contato.id}</td>
+                                                    <td>${contato.nome}</td>
+                                                    <td>${contato.cidade}</td>
+                                                    <td>${contato.categoria}</td>
+                                                    <td>${contato.website}</td>
+                                                </tr>`);
+                }
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>
